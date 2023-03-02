@@ -1,0 +1,17 @@
+{
+  "name": "word-to-excel",
+  "version": "1.0.0",
+  "description": "This is a project that reads the contents of a word file and writes it to an excel file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pham Dang Thang",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "word-extractor": "^1.0.4",
+    "xlsx": "^0.18.5"
+  }
+}
