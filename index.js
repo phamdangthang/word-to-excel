@@ -6,7 +6,7 @@ const wordPath = __dirname+`/data/`
 const excelPath = __dirname+`/export/`
 
 fs.readdirSync(wordPath).forEach(wordFile => {
-  console.log('Converting: ', wordFile);
+  console.log('Converting: ', wordFile)
   handle(wordFile)
 }); 
 
