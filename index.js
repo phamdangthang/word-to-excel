@@ -7,7 +7,6 @@ const excelPath = __dirname+`/export/`
 
 fs.readdirSync(wordPath).forEach(wordFile => {
   console.log('Converting: ', wordFile)
-  
   handle(wordFile)
 }); 
 
